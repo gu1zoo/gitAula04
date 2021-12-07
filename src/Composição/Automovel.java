@@ -33,7 +33,7 @@ public class Automovel {
    }
    
    public void imprimeDados(){
-       System.out.println(motor.potencia);
-       System.out.println(direcao.cor);
+       System.out.println(motor.getPotencia());
+       System.out.println(direcao.getCor());
    }
 }

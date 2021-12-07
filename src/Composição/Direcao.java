@@ -10,7 +10,7 @@ package Composição;
  * @author IFSC
  */
 public class Direcao {
-    protected String cor;
+    private String cor;
 
     public Direcao(){
         cor = "Branco";

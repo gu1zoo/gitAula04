@@ -10,7 +10,7 @@ package Composição;
  * @author IFSC
  */
 public class Motor {
-    protected int potencia;
+    private int potencia;
 
     public Motor() {
         potencia=1000;
