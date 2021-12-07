@@ -14,19 +14,22 @@ public class Composição {
         
         //1º Forma
         Automovel uno = new  Automovel();
-        Automovel gol = new Automovel(2000);
+        Automovel gol = new Automovel(2000,"Vermelho");
+        
         
         //2º Forma
-        Automovel carro = new Automovel();
-        carro.ligarP1();
-        carro.ligarP1(2000);
-        
-        //3º Forma
         Automovel moto = new Automovel();
-        Motor motor = new Motor();
-        Motor motor2 = new Motor(1600);
+        moto.ligarP1();
+        moto.ligarP1(1600,"Preta");
         
+        System.out.println("--------UNO----------");
+        uno.imprimeDados();
         
+        System.out.println("--------GOL----------");
+        gol.imprimeDados();
+        
+        System.out.println("--------MOTO----------");
+        moto.imprimeDados();
     }
     
 }

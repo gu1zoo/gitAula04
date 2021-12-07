@@ -16,16 +16,24 @@ public class Automovel {
    
    public Automovel(){
        motor = new Motor();
+       direcao = new Direcao();
    }
-   public Automovel(int potencia){
+   public Automovel(int potencia, String cor){
        motor = new Motor(potencia);
+       direcao = new Direcao(cor);
    }
   
    public void ligarP1(){
        motor = new Motor();
+       direcao = new Direcao();
    }
-   public void ligarP1(int potencia){
+   public void ligarP1(int potencia, String cor){
        motor = new Motor(potencia);
+       direcao = new Direcao(cor);
    }
-    
+   
+   public void imprimeDados(){
+       System.out.println(motor.potencia);
+       System.out.println(direcao.cor);
+   }
 }
